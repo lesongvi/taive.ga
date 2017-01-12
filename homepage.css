@@ -1,0 +1,711 @@
+
+
+/*This is the css for the home page body*/ 
+
+#home-panel {
+    background: url("https://images-na.ssl-images-amazon.com/images/G/01/digital/adrive/images/landing-page/home/home_image1.jpg") 50% 62% no-repeat;
+    background-size: cover; 
+}
+
+#home-panel.jp {
+    background: url("https://images-na.ssl-images-amazon.com/images/G/09/digital/adrive/images/landing-page/home/home_image1.jpg") 50% 62% no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 300;
+    font-family: 'Raleway';
+    line-height: 1;
+    margin: 0 auto;
+    padding: 100px 50px 0;
+    max-width: 1080px;
+    text-align: center;
+    text-shadow: 1px 1px 2px #8c8c8c;
+    width: 100%;
+}
+
+/* Style duplicated for CLOUD_DRIVE_PRICING_44822:C */
+.title-tagline {
+    text-align: center;
+    padding: 174px 0 8px;
+    width: 100%; 
+    text-shadow: 1px 1px 2px #8c8c8c;
+}
+
+.title-sub-tagline {
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 28px; 
+    width: 66%; 
+}
+
+.title-tagline.subtitle {
+    font-size: 40px; 
+    line-height: 50px; 
+    padding-top: 0; 
+    color: #f2f2f2;
+}
+
+.get-started-section {
+    text-align: center;
+    margin-top: 40px; 
+}
+
+#get-started {
+    border: 2px solid #FFFFFF;
+}
+
+#learn-more {
+    text-align: center;
+    font-size: 20px; 
+    font-weight: normal;
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    bottom: 10px;
+}
+
+#learn-more #learn-more-arrow {
+    background: url("https://images-na.ssl-images-amazon.com/images/G/01/digital/adrive/images/landing-page/learn_more_arrow.png") 50% 50% no-repeat; 
+    margin: 2px auto 10px;
+    height: 25px;
+    width: 35px; 
+    display: block;
+    animation: 3s ease-in 0s normal none infinite fade-in;
+    -webkit-animation: 3s ease-in 0s normal none infinite fade-in;
+}
+
+#learn-more #learn-more-arrow2 {
+    background: url("https://images-na.ssl-images-amazon.com/images/G/01/digital/adrive/images/landing-page/learn_more_arrow.png") 50% 50% no-repeat; 
+    margin: 2px auto 10px;
+    height: 25px;
+    width: 35px; 
+    display: block;
+    animation: 3s ease-in 0s normal none infinite fade-out;
+    -webkit-animation: 3s ease-in 0s normal none infinite fade-out;
+}
+
+.lt-ie9 .btn.white { 
+    background-color: #FFFFFF;
+}
+
+.lt-ie9 .title-sub-tagline {
+    max-width: 800px;
+}
+
+@media only screen and (max-width: 900px) {
+    h1 {
+        font-size: 54px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .title-tagline {
+        padding-top: 80px;
+        font-size: 45px;
+        line-height: 1em;
+    }
+
+    .title-tagline.subtitle {
+        padding-top: 20px;
+        font-size: 36px;
+        line-height: 1em;
+        font-weight: 300;
+    }
+
+    .title-sub-tagline {
+        width: 75%;
+        line-height: 23px;
+    }
+
+    #learn-more {
+        display: none;
+    }
+
+    #home-panel {
+        height: auto;
+        padding-bottom: 75px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    /* H1 tags apply to CLOUD_DRIVE_PRICING_44822:T1 */
+    h1 {
+        font-size: 48px;
+        max-width: 380px;
+        padding:0 20px;
+        margin-top: 65px;
+    }
+
+    /* Override default styles for CLOUD_DRIVE_PRICING_44822:C */
+    h1.title-tagline {
+        margin-top: 0;
+        font-size: 36px;
+    }
+}
+
+/**** END Home title styles ****/ 
+
+
+
+
+/**** Features styles ****/ 
+.content-section {
+    width: 100%; 
+    padding: 106px 0 75px;
+    text-align: center;
+}
+
+.content-section div {
+    margin: 0 auto; 
+    height: 100%; 
+}
+
+.section-left {
+    display:inline-block;
+    width: 50%;
+    max-width: 600px;
+    padding-right: 6%;
+    height: 100%; 
+    vertical-align: top;
+    margin: 55px 20px;
+    text-align: left;
+}
+
+.section-tagline {
+    font-size: 48px;
+    font-family: 'Raleway';
+    font-weight: 300;
+    line-height: 1;
+}
+
+.section-sub-tagline {
+    font-size: 16px;
+    font-weight: normal; 
+    color: #373737;
+    line-height: 25px;
+    padding: 35px 0;
+    margin: 0;
+}
+
+.section-more {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 45px;
+    display: inline-block;
+    text-decoration: underline !important; 
+}
+
+.section-more:hover, 
+.section-more:active {
+    color: #000000;
+}
+.section-img {
+    display: inline-block;
+    width: 350px ; 
+    height: 100%; 
+    padding-top: 15px;
+}
+
+.top-section-img {
+    display: none;
+}
+
+
+#all-devices {
+    width: 350px;
+    height: 350px;
+}
+
+.lt-ie9 .content-section {
+    min-width: 750px;
+}
+
+#pricing-panel #plans-container #unlimited-storage-only-plan {
+    max-width: 700px;
+}
+
+@media only screen and (max-width: 760px) {
+    .content-section {
+        padding: 60px 0; 
+    }
+
+    .section-left {
+        text-align: center;
+    }
+
+    .section-left .section-tagline {
+      font-size: 32px;
+      line-height: 1;
+      padding-top: 0px;
+      text-align: center;
+    }
+
+    .section-sub-tagline {
+        padding: 15px 0; 
+        text-align: left;
+    }
+
+    .top-section-img {
+        display: block;
+    }
+    .section-img.right {
+        display: none;
+    }
+
+    .section-icons {
+        width: 225px;
+        height: 225px;      
+    }
+
+    .section-left {
+        padding-right: 5px;
+        padding-top: 15px;
+        width: 75%; 
+    }
+
+    #pricing-panel #plans-container .plan #single-unlimited-hero {
+        top: 15px;
+    }
+
+    #pricing-panel #plans-container .plan .plan-skip-banner .plan-skip-button {
+        margin: 0px 20px 15px 20px;
+    }
+
+    #pricing-panel #plans-container .plan .content #unlimited-storage-only-content-title {
+        margin-top:50px;
+    }
+
+    #pricing-panel #plans-container #unlimited-storage-only-plan {
+        max-width: 450px;
+    }
+
+}
+
+/**** END Features styles ****/ 
+
+/*** Girl on hill style ***/ 
+#girl-on-hill-phone {
+    background: url("https://images-na.ssl-images-amazon.com/images/G/01/digital/adrive/images/landing-page/home/home_image4._V323793700_.jpg") 50% 1px no-repeat;
+    background-size: cover;
+}
+
+#girl-on-hill-phone.jp {
+    background: url("https://images-na.ssl-images-amazon.com/images/G/09/digital/adrive/images/landing-page/home/home_image2b.jpg") 50% 1px no-repeat;
+    background-size: cover;
+}
+
+/**** Concert phone styles ****/
+#concert-phone {
+    background: url("https://images-na.ssl-images-amazon.com/images/G/01/digital/adrive/images/landing-page/home/home_image2.jpg") 50% 1px no-repeat;
+    background-size: cover; 
+}
+#concert-phone.jp {
+    background: url("https://images-na.ssl-images-amazon.com/images/G/09/digital/adrive/images/landing-page/home/home_image3b.jpg") 50% 1px no-repeat;
+    background-size: cover;
+}
+.img-panel { 
+    height: 430px;  
+    width: 100%; 
+    position: relative; 
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 760px) {
+  .img-panel {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .img-panel {
+    height: 600px;
+  }
+}
+
+/**** END Concert phone styles ****/
+
+
+/**** Download styles ****/ 
+.section-right {
+    display:inline-block;
+    width: 50%;
+    max-width: 600px;
+    padding-left: 8%;
+    height: 100%; 
+    vertical-align: top;
+    text-align: left;
+}
+
+.section-right .section-tagline {
+    padding-top: 15px;
+}
+
+.section-right .section-sub-tagline {
+    font-size: 16px; 
+    color: #373737;
+    font-weight: normal;
+}
+
+.section-right .section-more{
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 760px) {
+    .section-right .section-tagline {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .section-right {
+        padding: 15px 5px 0 0; 
+        width: 75%; 
+        text-align: center;
+        margin-top: 0 !important;
+    }
+}
+/**** END Download styles ****/ 
+
+
+/**** Desk-laptop styles ****/ 
+
+#desk-laptop {
+    background: url("https://images-na.ssl-images-amazon.com/images/G/01/digital/adrive/images/landing-page/home/home_image3.jpg") 50% 0px no-repeat ; 
+    background-size: cover; 
+} 
+
+/**** END Desk-laptop styles ****/ 
+
+
+/*** Desktop Download Section ***/ 
+
+
+/*** END Desktop Download Section ***/ 
+
+
+/*** ftplcx ***/
+#ftplcx-v2 #home-panel {
+    height:680px;  
+}
+
+#ftplcx-v2 #header-tagline {
+    font-size:75px; 
+    padding-top:250px; 
+    font-weight:300;
+}
+
+@media only screen and (max-width: 800px) {
+    #ftplcx-v2 #header-tagline {
+        font-size: 45px;
+    }
+}
+
+#ftplcx-v2 .title-sub-tagline {
+    font-size: 18px;
+}
+
+
+/* Unlimited Plans CSS */
+/* =Pricing Panel */
+
+#pricing-panel {
+    background: url("https://images-na.ssl-images-amazon.com/images/G/01/digital/adrive/images/landing-page/home/home_image1.jpg") 50% 62% no-repeat ; 
+    background-size: cover; 
+    height: auto;
+    padding-top: 21px;
+    padding-bottom: 50px;
+}
+
+#pricing-panel #drive-logo-container {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+
+#pricing-panel .nav-container {
+    height: 60px;
+}
+
+#pricing-panel .nav-container .sign-in {
+    float: right;
+    margin-right: 30px;
+    margin-top: 17px;
+    
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#pricing-panel .sign-in .link {
+    color: #FFFFFF;
+}
+
+#pricing-panel .nav-container .sign-in.mobile-web {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    #pricing-panel .nav-container .sign-in.desktop-web {
+        display: none;
+    }
+
+    #pricing-panel .nav-container .sign-in.mobile-web {
+        display: block;
+    }
+
+    #pricing-panel .nav-container .sign-in {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+}
+
+.drive-logo.mobile-web {
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+#pricing-panel #pricing-title-container {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 300;
+}
+
+#pricing-panel #pricing-title-container .title {
+    font-size: 60px;
+    line-height: 1;
+}
+
+#pricing-panel #pricing-title-container .sub-title {
+    margin: 25px 0px 20px 0px;
+    font-size: 25px;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 600px) {
+  #pricing-panel #pricing-title-container .sub-title {
+    font-size: 15px;
+  }
+}
+
+#pricing-panel #plans-container {
+    height: auto;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#pricing-panel #plans-container .plan {
+    max-width: 363px;
+    height: auto; 
+    display: inline-block;  
+  margin: 100px 30px 0px 30px;
+  background-color: rgba(255,255,255,0.9);
+
+    height: auto;
+    border: 3px solid #d2ebff;
+}
+
+#pricing-panel #plans-container .single-unlimited-plan{
+    width: 363px;
+    min-height: 400px;
+    vertical-align: top;
+}
+
+@media only screen and (max-width: 600px) {
+  #pricing-panel #plans-container .plan {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+}
+
+#pricing-panel #plans-container .plan:hover {
+    background-color: rgba(255,255,255,1);
+    border: 3px solid #008dff;
+}
+
+#pricing-panel #plans-container .plan .plan-hero {
+    margin: 0 auto;
+    position: relative;
+    bottom: 90px;
+}
+
+#pricing-panel #plans-container .plan #single-unlimited-hero {
+    bottom: 30px;
+    margin-left: 20px;
+}
+
+#pricing-panel #plans-container .plan .plan-skip-banner {
+    width: 100%;
+    height:auto;
+    background-color: rgba(0,141,255,1);
+    display: inline-block;
+}
+
+#pricing-panel #plans-container .plan .plan-skip-banner .plan-skip-button{
+    width: 250px;
+    height:auto;
+    background-color: rgba(255,255,255,0.9);
+    display: inline-block;
+    font-size:14px;
+    min-width: 200px;
+    vertical-align:middle;
+    margin: 15px 10px;
+}
+
+#pricing-panel #plans-container .plan .plan-skip-banner .plan-skip-banner-msg{
+    display: inline-block;
+    font-weight: 500;
+    height:auto;
+    text-align:center;
+    font-size:15px;
+    vertical-align:middle;
+    max-width:350px;
+    text-align: left;
+    line-height: 23px;
+    margin: 25px 10px;
+}
+
+#pricing-panel #plans-container .plan .content {
+    font-weight: 500;
+    color: #000000;
+}
+
+#pricing-panel #plans-container #unlimited-storage-only-plan {
+    margin-top: 50px;
+}
+
+#pricing-panel #plans-container #unlimited-storage-only-plan .plan-hero {
+    display: inline-block;
+    margin-top:20px;
+}
+
+#pricing-panel #plans-container #unlimited-storage-only-plan .content {
+    display: inline-block;
+    max-width: 400px;
+}
+
+#pricing-panel #plans-container .plan .content .content-title {
+  margin: -75px auto 15px auto; /* -75 = -90 (to undo the spacing caused by the image positioned up + 15 (for actual margin) */
+  font-size: 30px;
+  color: #008dff;
+}
+
+#pricing-panel #plans-container .single-unlimited-plan .content .content-title {
+    line-height: 30px;
+}
+
+#pricing-panel #plans-container .plan .content #unlimited-storage-only-content-title {
+    margin-top:50px;
+}
+
+#pricing-panel #plans-container .plan .content .content-info {
+  margin: 0 auto;
+  padding: 0 15px;
+  font-size: 15px;
+}
+
+#pricing-panel #plans-container .plan .content .plan-learn-more {
+  margin: 5px 0px 25px 0px;
+  display: block;
+}
+
+#pricing-panel #plans-container .plan .content .content-info-list {
+  margin: 0 auto;
+  padding: 0 15px;
+  font-size: 15px;
+  text-align: left;
+}
+
+/* Adding min-height for both plan boxes to remain in same size for all locales */
+#pricing-panel #plans-container .single-unlimited-plan .content .content-info-list {
+  margin: 0px 0px 0px 20px;
+  min-height: 90px;
+}
+
+#pricing-panel #plans-container .plan .content .content-info-list li {
+  color: #000000;
+}
+
+#pricing-panel #plans-container .plan .content .plan-price {
+  margin: 0 auto;
+  padding: 0 15px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+#pricing-panel .plan .desktop-download-msg {
+  margin-top: 13px;
+  background-color: #e3e3e3;
+  padding-top: 15px;
+}
+
+#pricing-panel .plan .desktop-download-msg p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 850px) {
+    #pricing-panel .plan .desktop-download-msg p {
+        display: none;
+    }
+}
+
+#pricing-panel #plans-container .plan .content .cta {
+   width: 282px;
+   background-color: rgba(0,141,255,0.9);
+   font-size: 14px;
+   color: #ffffff;
+}
+
+#pricing-panel #plans-container .single-unlimited-plan .content .cta {
+    width: 300px;
+}
+
+#pricing-panel #plans-container .plan .content .cta {
+   background-color: rgba(0,141,255,1);
+}
+
+#pricing-panel .legal {
+  margin: 30px auto 0px;
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#pricing-panel .legal a {
+  color: #FFFFFF;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+#ftplcx-v2 .btn {
+  min-width: 80%;
+}
+
+.cta, .disabled {
+  margin: 13px auto;
+}
+
+#pricing-panel #plans-container .plan .content .learn-more {
+   margin: 0 auto 15px auto;
+   font-size: 14px;
+   text-decoration: underline;
+}
+
+#pricing-panel #copy-container {
+   margin: 44px auto 0px auto;
+   padding-bottom: 29px;
+   color: #ffffff; 
+   font-size: 12px;
+   text-align: center;
+}
+/* END =Pricing Panel */
+
