@@ -1,0 +1,568 @@
+
+/*Common CSS definitions for the product pages*/ 
+
+
+/**** Common Body Style Definitions ***/ 
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Raleway Light'), local('Raleway-Light'), url(https://themes.googleusercontent.com/static/fonts/raleway/v7/-_Ctzj9b56b8RgXW8FAriRsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), url(https://themes.googleusercontent.com/static/fonts/raleway/v7/IczWvq5y_Cwwv_rBjOtT0w.woff) format('woff');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Raleway Medium'), local('Raleway-Medium'), url(https://themes.googleusercontent.com/static/fonts/raleway/v7/CcKI4k9un7TZVWzRVT-T8xsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+
+body {
+    font-family: Helvetica; 
+    font-family: Raleway;
+    font-weight: 300;
+    color: #000000;
+}
+
+a, a:visited, a:active, a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+} 
+
+.panel { 
+    height: 640px;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-weight: normal;
+}
+
+.panel .subcopy {
+    font-size: 16px;
+}
+
+.btn {
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 25px; 
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.btn.white {
+    background-color: rgba(240,240,240, 0.91);
+    color: #008CFF;
+} 
+
+.btn.white:hover,
+.btn.white:active {
+    background-color:#FFFFFF; 
+    color: #008CFF;
+}
+
+.btn.blue {
+    background-color: #1997FF;
+    border: 3px solid #008CFF;
+    color: #FFFFFF;
+}
+
+.btn.blue:hover,
+.btn.blue:active {
+    background-color: #008CFF;
+}
+
+.btn.disabled {
+    background-color: #bbbbbb;
+    border: 3px solid #afafaf;
+    color: #ffffff;
+    cursor: default;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.lt-ie9 #learn-more-arrow {
+    display:none !important; 
+}
+
+.panel .legal {
+  margin: 30px auto;
+  width: 90%;
+  max-width: 800px;
+
+  text-align: center;
+  color: #000000;
+}
+
+.panel .legal a {
+  color: #008DFF;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+
+
+/** Arrow animation */
+@-webkit-keyframes fade-in {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        opacity: 0;
+    }
+    90% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translate(0, 30px);
+        transform: translate(0, 30px);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        opacity: 0;
+    }
+    90% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translate(0, 30px);
+        transform: translate(0, 30px);
+        -ms-transform: translate(0, 30px);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fade-out {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    90% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: translate(0, 30px);
+        transform: translate(0, 30px);
+        opacity: 0;
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    90% {
+        transform: translate(0, 0);
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: translate(0, 30px);
+        -ms-transform: translate(0, 30px);
+        transform: translate(0, 30px);
+        opacity: 0;
+    }
+}
+
+/* End arrow animation */
+
+/*** END to Common body styles ***/  
+
+
+/**** Banner styles ****/ 
+
+#home-banner {
+    background-color: rgba(255,255,255,0.9);
+    height: 90px; 
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+}
+
+#banner-content {
+    height: 100%;
+    margin: 0 auto; 
+    max-width: 990px;
+    min-width: 930px;
+    text-align: center;
+}
+
+#banner-logo  {
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+    width: 200px;
+    padding: 17px 0 0 10px;
+}
+
+#banner-links {
+    display: inline-block;
+    padding-top: 30px; 
+    float: right;
+}
+
+#banner-links li { 
+    list-style: none outside none; 
+    display: inline-block;
+    min-width: 100px;
+    line-height: 34px;
+}
+
+#banner-links #signup-li {
+    width: auto;
+    border-left: 3px solid; 
+    padding-left: 22px;
+    margin-left:7px; 
+    margin-right:25px;
+}
+
+#banner-links li a {
+    color: #303030;
+    font-weight: 500; 
+    font-size: 14px; 
+    line-height: 20px;
+}
+
+#banner-links li a:hover, 
+#banner-links li a.active {
+    text-decoration: none;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+}
+
+#banner-links #banner-signup-mobile {
+    display: none;
+}
+
+#banner-links .homeLink {
+    min-width: 80px;
+}
+
+#banner-links .pricingLink {
+    min-width: 80px;
+}
+
+#banner-links .learnMoreLink {
+    min-width: 115px;
+}
+
+#banner-links .partnersLink {
+    min-width: 100px;
+}
+
+#humberger-menu {
+    display: none;
+}
+
+#signup-li #sign-in-container {
+    position: relative;
+}
+#sign-in-container #banner-sign-in {
+    font-size: 15px !important ;
+    font-weight: 600;
+}   
+#signup-li #sign-in-popup {
+    position: absolute;
+    display: block;
+    padding: 12px 14px 13px;
+    white-space: nowrap;  
+    z-index: 100; 
+    left: -42px;
+    top: 38px;
+    margin-top: 12px; 
+    border: solid 3px #008cff;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+}
+#signup-li #sign-in-popup #pop-up-spacer {
+    display: block;
+    height: 24px; 
+    left: -3px;
+    position: absolute;
+    top: -27px;
+    width: 179px; 
+}
+
+#signup-li .sign-arrow { 
+    background: url('https://images-na.ssl-images-amazon.com/images/G/01/digital/adrive/images/landing-page/arrow_dow.png');
+    background-repeat: no-repeat;
+    background-size: 15px 10px;
+    display: inline-block;
+    height: 10px;
+    width: 15px;
+    margin-left: 8px;
+}
+
+#signup-li .pointer-arrow {
+    border-style: solid;
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    position: absolute;
+}
+
+#signup-li #signup-arrow {
+    border-color: transparent transparent #008cff;
+    border-width: 15px; 
+    left: 71px; 
+    top: -30px;
+}
+#signup-li #signup-arrow-white {
+    border-color: transparent transparent #FFFFFF;
+    border-width: 12px; 
+    left: 74px; 
+    top: -22px;
+}
+#signup-li #sign-in-popup #new-customer {
+    line-height: 16px;
+    font-size: 12px !important;
+    color: #000000;
+    font-weight: 500;
+    padding-top: 11px;
+}
+
+#signup-li #sign-in-popup #new-customer a {
+    color: #0066c0;
+    text-decoration: underline;
+    font-size: 12px !important;
+}
+
+#signup-li .banner-signup-blue {
+    padding: 4px 14px; 
+    color: #FFFFFF !important;
+    min-width: 125px;
+}
+
+#signup-li .banner-signup-blue:hover {
+    font-size: 14px;
+}
+
+#banner-links #signup-li.authenticated {
+    border:none;
+}
+
+#banner-links .selected a, 
+#banner-links .selected a:hover {
+    font-weight: bold;
+    color: #008CFF;
+}
+
+.lt-ie9 #home-banner {
+    background-color: rgb(255,255,255);
+    height: 90px; 
+    min-width: 900px;
+}
+
+@media only screen and (min-width: 825px) {
+    #banner-links {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 824px) {
+    #banner-content {
+        box-shadow: 0 6px 45px rgba(100, 100, 100, 0.36);
+        min-width: 320px; 
+    }
+
+    #home-banner {
+        height: 60px; 
+        background-color: rgb(255,255,255);
+    }
+
+    #banner-logo {
+        padding-top: 12px;
+        width: 140px;
+    }
+
+    #banner-links.mobile-show {
+        display: inline-block;
+    }
+
+    #banner-links {
+        box-shadow: 0 24px 25px 3px rgba(100, 100, 100, 0.36);
+        background-color: rgb(255,255,255);
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        padding-top: 5px;
+        display: none;
+    }
+
+    #banner-links li {
+        display: block;
+        text-align: left;
+        width: 100%;
+        border-bottom:2px solid #AAAAAA;  
+    }
+
+    #banner-links li.last {
+        border-bottom: none;
+    }
+    
+    #banner-links li a {
+        line-height: 45px; 
+        display: block;
+    }
+
+    .banner-anchor {
+        padding: 0 14px;
+    }
+
+    #humberger-menu {
+        display: inline-block;
+        float: right;
+        margin: 18px;
+    }
+
+    #humberger-menu #menu-img {
+        width: 28px;
+        cursor: pointer;
+    }
+
+    #banner-links #signup-li {
+        display: none ;
+    }
+
+    #banner-links #banner-signup-mobile {
+        display: block;
+    }
+}
+
+
+/**** END Banner styles ****/ 
+
+/**** Footer styles ****/
+
+#home-footer {
+    width: 100% ; 
+    background-color: #000000; 
+    color: #FFFFFF; 
+    text-align: center;
+    position: absolute;
+}
+
+#footer-content {
+    height: 100%; 
+}
+
+#footer-logo { 
+    background: url("https://images-na.ssl-images-amazon.com/images/G/01/digital/adrive/images/drive_logo_alternate.png") 0 0 no-repeat; 
+    margin: 36px auto 17px; 
+    vertical-align: middle;
+    height: 47px; 
+    width: 160px;
+    background-size: 160px;
+}
+
+.footer-list {
+    display: inline-block;
+}
+
+.footer-list li { 
+    list-style: none outside none; 
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#footer-links {
+    margin: 0 0 20px;
+}
+
+#footer-links li a {
+    color: #FFFFFF;
+    font-size: 18px; 
+    padding: 6px 10px;
+    display: inline-block;
+}
+
+#amzn-subsidiaries li a, 
+#legal-footer li a {
+    display: inline-block;
+    padding: 0 5px;
+    font-weight: normal;
+}
+
+#amzn-logo { 
+    background: url("https://images-na.ssl-images-amazon.com/images/G/01/digital/adrive/images/landing-page/amazon_footer_logo.png") 0 0 no-repeat; 
+    margin: 0 auto 15px; 
+    height: 40px; 
+    width: 122px;
+    display: block;
+    background-position-y:50%;
+    background-position:center;
+}
+
+#amzn-copyright {
+    color: #606060; 
+    font-weight: normal;
+    font-size: 11px; 
+    padding-bottom: 22px;
+}
+
+#amzn-subsidiaries li a, 
+#legal-footer li a,
+#amzn-copyright {
+    font-family: Arial;
+    font-size:12px;
+    color: #6e6e6e ;
+}
+/**** END Footer styles ****/
+
+/**** Assets ****/
+
+.photos-hero {
+    width: 260px;
+    height: 180px;
+    background: url("https://images-na.ssl-images-amazon.com/images/G/01/digital/adrive/images/landing-page/pricing-prd/cd_pricing_photos_icon._V331535195_.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.everything-hero {
+    width: 220px;
+    height: 180px;
+    background: url("https://images-na.ssl-images-amazon.com/images/G/01/digital/adrive/images/landing-page/pricing-prd/cd_pricing_everything_icon._V331820326_.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/**** END Assets ****/
+
